@@ -1,0 +1,23 @@
+html, body {
+
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flex > *{
+  width: 8%;
+  background: #fff;
+}
+.flex,
+.flex > *{
+
+}
+
+.contents{
+  color: blue;
+}
